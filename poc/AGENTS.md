@@ -356,6 +356,18 @@ By the end of this project, the outputs should support the following narrative:
 - We categorized the reasons for failure.
 - We demonstrated one simple intervention that changes the result.
 
+## Dependency policy
+
+Do not reimplement third-party GIS, graph, or geometry libraries.
+
+If package installation fails:
+1. stop feature work
+2. diagnose the environment
+3. report exact failing commands and missing packages
+4. propose the smallest viable dependency set
+
+Only proceed with a reduced-dependency fallback if explicitly approved.
+
 If this story is supported by artifacts, the PoC is successful.
 
 ---
