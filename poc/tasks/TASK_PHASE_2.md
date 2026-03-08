@@ -22,3 +22,14 @@ Create baseline visualizations and verify spatial alignment.
 ## Stop after
 Baseline spatial sanity checks are complete.
 Do not yet compute full reachability if baseline alignment is still broken.
+
+## Execution Log
+- Status: completed
+- Completion date: 2026-03-08
+- Environment: WSL local Python (`.venv/bin/python`)
+- Script used:
+  - `scripts/05_plot_baseline.py`
+- Outputs:
+  - `outputs/figures/baseline_shelters_network.png`
+  - `outputs/figures/baseline_network_flood.png`
+  - `outputs/figures/phase2_sanity_report.md`

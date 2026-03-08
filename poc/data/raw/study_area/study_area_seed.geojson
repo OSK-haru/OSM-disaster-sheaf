@@ -1,0 +1,14 @@
+{
+  "type": "FeatureCollection",
+  "name": "kamisu_area_seed",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"source": "seed_local", "name": "Kamisu Area Seed Study Area"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[140.6200, 35.8100], [140.7700, 35.8100], [140.7700, 35.9300], [140.6200, 35.9300], [140.6200, 35.8100]]]
+      }
+    }
+  ]
+}

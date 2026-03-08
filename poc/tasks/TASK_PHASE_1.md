@@ -32,3 +32,19 @@ Load and normalize the minimum datasets for the Kamisu area PoC.
 ## Stop after
 The required datasets are available in usable form.
 Do not begin failure reasoning or intervention here.
+
+## Execution Log
+- Status: completed
+- Completion date: 2026-03-08
+- Method: local seed data normalization
+- Scripts used:
+  - `scripts/01_load_shelters.py`
+  - `scripts/02_select_area.py`
+  - `scripts/03_build_network.py`
+  - `scripts/04_prepare_flood_polygons.py`
+  - `scripts/run_phase1.sh`
+- Outputs:
+  - `data/processed/shelters.geojson`
+  - `data/processed/study_area.geojson`
+  - `data/processed/network_edges.geojson`
+  - `data/processed/flood_polygons.geojson`

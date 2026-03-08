@@ -1,0 +1,19 @@
+# virtual environment
+.venv/
+venv/
+env/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# outputs
+outputs/
+data/processed/

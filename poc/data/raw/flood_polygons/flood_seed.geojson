@@ -1,0 +1,14 @@
+{
+  "type": "FeatureCollection",
+  "name": "kamisu_flood_seed",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"flood_id": "F1", "flood_level_m": 1.5, "scenario": "seed_flood", "source": "seed_local"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[140.6850, 35.8450], [140.7450, 35.8450], [140.7450, 35.8950], [140.6850, 35.8950], [140.6850, 35.8450]]]
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "kamisu_shelters_seed",
+  "features": [
+    {"type": "Feature", "properties": {"id": "S1", "name": "Kamisu Civic Hall", "capacity": 300, "source": "seed_local"}, "geometry": {"type": "Point", "coordinates": [140.6900, 35.8850]}},
+    {"type": "Feature", "properties": {"id": "S2", "name": "Hasaki Community Center", "capacity": 220, "source": "seed_local"}, "geometry": {"type": "Point", "coordinates": [140.7400, 35.8600]}},
+    {"type": "Feature", "properties": {"id": "S3", "name": "Ikisu Elementary Gym", "capacity": 180, "source": "seed_local"}, "geometry": {"type": "Point", "coordinates": [140.6550, 35.9000]}}
+  ]
+}

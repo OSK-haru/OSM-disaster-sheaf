@@ -1,0 +1,12 @@
+{
+  "type": "FeatureCollection",
+  "name": "kamisu_network_seed",
+  "features": [
+    {"type": "Feature", "properties": {"edge_id": "E1", "highway": "residential", "walkable": "yes", "stairs": "no", "source": "seed_local"}, "geometry": {"type": "LineString", "coordinates": [[140.6300, 35.8500], [140.7000, 35.8500]]}},
+    {"type": "Feature", "properties": {"edge_id": "E2", "highway": "residential", "walkable": "yes", "stairs": "no", "source": "seed_local"}, "geometry": {"type": "LineString", "coordinates": [[140.7000, 35.8500], [140.7600, 35.8500]]}},
+    {"type": "Feature", "properties": {"edge_id": "E3", "highway": "service", "walkable": "yes", "stairs": "no", "source": "seed_local"}, "geometry": {"type": "LineString", "coordinates": [[140.7000, 35.8500], [140.7000, 35.9100]]}},
+    {"type": "Feature", "properties": {"edge_id": "E4", "highway": "footway", "walkable": "yes", "stairs": "no", "source": "seed_local"}, "geometry": {"type": "LineString", "coordinates": [[140.6550, 35.9000], [140.7000, 35.9100]]}},
+    {"type": "Feature", "properties": {"edge_id": "E5", "highway": "primary", "walkable": "limited", "stairs": "no", "source": "seed_local"}, "geometry": {"type": "LineString", "coordinates": [[140.7000, 35.8850], [140.7400, 35.8600]]}},
+    {"type": "Feature", "properties": {"edge_id": "E6", "highway": "footway", "walkable": "yes", "stairs": "no", "source": "seed_local"}, "geometry": {"type": "LineString", "coordinates": [[140.7000, 35.8850], [140.7000, 35.8500]]}}
+  ]
+}
